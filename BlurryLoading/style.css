@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    flex-direction: column;
+}
+.bg{
+    background: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2022-rolls-royce-ghost-black-badge-102-1635439026.jpg') no-repeat center center/cover;
+    position: absolute;
+    left: -30px;
+    top: -30px;
+    /* width: calc(100vw +60px); */
+    /* height: calc(100vh +60px); */
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    filter: blur(0px);
+
+}
+.loading-text{
+    font-size: 50px;
+    /* color: white; */
+    color: red;
+    /* text-align: center; */
+}
